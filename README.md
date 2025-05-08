@@ -63,7 +63,7 @@ Call pipeline.predict_proba(X)[0][1] for Team 1 win prob.; Team 2 is 1–p.
 Prerequisites
 Python 3.8+
 
-# Pip or Poetry for dependency management
+ Pip or Poetry for dependency management
 
 Clone & Install
 bash
@@ -71,13 +71,13 @@ Copy
 Edit
 git clone https://github.com/Madhan230205/IPL-Prediction-using-MachineLearning.git
 
-# using pip
+using pip
 python -m venv .venv
 source .venv/bin/activate        # (Linux/macOS)
 .\.venv\Scripts\activate         # (Windows PowerShell)
 pip install -r requirements.txt
 
-# or using Poetry
+or using Poetry
 poetry install
 requirements.txt
 shell
